@@ -6,8 +6,8 @@ class pluginBackToTop extends Plugin {
 	{
 		// Fields and default values for the database of this plugin
 		$this->dbFields = array(
-			'color'=> '#343a40',
-      'logo'=>none
+		'color'=> '#343a40',
+      '		logo'=>none
 		);
 	}
 
