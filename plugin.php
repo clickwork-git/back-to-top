@@ -23,8 +23,23 @@ class pluginBackToTop extends Plugin {
 		return $html;
 	}
 
+	public function siteHead()
+	{
+		$dir = basename(dirname(__FILE__));
+
+		echo '<link rel="stylesheet" type="text/css" href="'.DOMAIN_PLUGINS.$dir.'/css/btnstyle.css">';
+	}
+
+	public function pageBegin()
+	{
+		echo '<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>';
+	}
+
 	public function siteBodyEnd()
 	{
-		include('/js/buttonscript.js');
+
+		$dir = basename(dirname(__FILE__));
+	    	echo '<script src="'.DOMAIN_PLUGINS.$dir.'/js/btnscript.js">';
+	    	echo '</script>';
   	}
 }
