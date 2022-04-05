@@ -1,0 +1,8 @@
+{
+	"plugin-data":
+	{
+		"name": "Back to Top Button",
+		"description": "Button, um an den Seitenanfang zurückzukehren."
+	},
+	"color-of-the-icon": "Color of the icon"
+}
