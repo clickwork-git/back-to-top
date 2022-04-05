@@ -2,7 +2,7 @@
 	"plugin-data":
 	{
 		"name": "Back to Top Button",
-		"description": "Allows the configuration of the header and the footer of the themes Alternative and Blog X."
+		"description": "Adds a button to return to the top of the page ."
 	},
 	"color-of-the-icon": "Color of the icon"
 }
