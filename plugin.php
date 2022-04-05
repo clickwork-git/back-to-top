@@ -23,16 +23,8 @@ class pluginBackToTop extends Plugin {
 		return $html;
 	}
 
-	public function siteHead()
-	{
-		$dir = basename(dirname(__FILE__));
-
-		echo '<link rel="stylesheet" type="text/css" href="'.DOMAIN_PLUGINS.$dir.'/css/style.css">';
-	}
-
 	public function siteBodyEnd()
 	{
-  <!-- Scroll to top button -->
-   echo '<button id="scrollToTopBtn">☝️</button>';
-  }
+		include('/js/buttonscript.js');
+  	}
 }
