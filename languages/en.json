@@ -2,7 +2,7 @@
 	"plugin-data":
 	{
 		"name": "Back to Top Button",
-		"description": "Adds a button to return to the top of the page ."
+		"description": "Adds a button to return to the top of the page."
 	},
 	"color-of-the-icon": "Color of the icon"
 }
